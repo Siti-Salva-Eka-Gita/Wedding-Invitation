@@ -444,11 +444,57 @@ body, html {
 }
 
 @media (max-width: 768px) {
-  .gcard {
-    bottom: 33%;
-  }
+    .enve-cover .bg-hp {
+        object-fit: contain;
+        object-position: center;
+    }
 
-  .gname {
-    font-size: 16px;
-  }
+    .wax {
+        top: 58%;
+    }
+
+    .ws {
+        width: 68px;
+        height: 68px;
+    }
+
+    .gcard {
+        bottom: 30%;
+        width: max-content;
+        max-width: 90%;
+        text-align: center;
+    }
+
+    .gname {
+        font-size: 16px;
+        white-space: nowrap;
+    }
+}
+@media (max-width: 576px) {
+    .countdown-wrap {
+        width: 100%;
+        gap: 0.3rem !important;
+        padding: 0 8px;
+        box-sizing: border-box;
+    }
+
+    .countdownpart {
+        flex: 1;
+        min-width: 0;
+    }
+
+    .time {
+        font-size: clamp(2rem, 8vw, 3rem);
+        white-space: nowrap;
+    }
+
+    .count {
+        font-size: 0.65rem;
+        letter-spacing: 2px;
+    }
+
+    .pemisah-waktu {
+        font-size: 1.5rem;
+        flex-shrink: 0;
+    }
 }
