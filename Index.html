@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Undangan</title>
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400;1,500&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div id="amplop-cover" class="enve-cover">
+    <img src="Bg_lptp.jpg.jpeg" alt="bgweb" class="bg">
+    <img src="Bg_hp.png" alt="bghp" class="bg-hp">
+    
+    <div class="wax" id="seal" onclick="openEnvelope()">
+      <img src="seal.png" alt="Wax Seal" class="ws" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+      <div class="sealb" style="display:none;">M</div>
+    </div>
+
+    <div class="gcard" id="list-tamu">
+      <h4 class="gname">To Our Beloved</h4>
+    </div>
+  </div>
+
+  <div id="gold-dust"></div>
+
+  <div id="main-content">
+    
+    <!-- Header -->
+    <section class="content container-fluid d-flex flex-column justify-content-center align-items-center text-center">
+      <div class="shadow"></div>
+      
+      <div class="main">
+        <p class="quote">"You are my today, tomorrow, and forever"</p>
+        <p class="sub-judul">THE WEDDING OF</p>
+        <h1 class="bridengrooms">Bianca & Zachary</h1>
+
+        <div class="JwlnTmpt">
+          <p class="tanggal">20 . 12 . 2026</p>
+          <p class="kota">SURABAYA</p>
+        </div>
+      </div>
+    </section>
+
+<!-- Story -->
+    <section class="container-fluid p-0 position-relative" style="background-color: #fdfbf7;">
+      
+      <div class="papera">
+        <svg viewBox="0 0 1440 120" preserveAspectRatio="none" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M0,30 C320,90 420,0 720,40 C1020,80 1160,10 1440,40 L1440,0 L0,0 Z" fill="#0d1527"/>
+        </svg>
+      </div>
+
+      <div class="background container py-4">
+        <div class="header text-center mb-4">
+          <p class="sub-judul-krem">OUR MOMENTS</p>
+          <h2 class="judul">Our Story</h2>
+        </div>
+
+        <div class="row justify-content-center align-items-center">
+          <div class="col-lg-9 wrapper">
+            <p class="story text-center mb-5">
+              "Perhaps some meetings are never truly accidental. Two hearts, one beautiful journey, and a love worth keeping. As we begin our next chapter together, we invite you to witness the beginning of our forever."
+            </p>
+
+            <div class="row justify-content-center g-4 mt-2">
+              <div class="col-6 col-md-4 text-center">
+                <div class="g1">
+                  <img src="Fm.jpg.jpeg" alt="First Meet" class="img-fluid">
+                  <p class="caption">First Meet</p>
+                </div>
+              </div>
+              <div class="col-6 col-md-4 text-center">
+                <div class="g2 miring-kanan">
+                  <img src="Pw.jpg.jpeg" alt="Engagement" class="img-fluid">
+                  <p class="caption">The Engagement</p>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+      <div class="paperb">
+        <svg viewBox="0 0 1440 120" preserveAspectRatio="none" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M0,90 C320,20 420,110 720,70 C1020,30 1160,100 1440,70 L1440,120 L0,120 Z" fill="#0d1527"/>
+        </svg>
+      </div>
+    </section>
+
+    <!-- Detail -->
+    <section class="details container-fluid">
+      <div class="container text-center">
+        
+        <div class="header mb-5">
+          <p class="sub-judul">THE DETAILS</p>
+          <h2 class="judul">Of The Wedding</h2>
+          <div class="garis mx-auto"></div>
+        </div>
+
+        <div class="row justify-content-center g-4">
+          <div class="col-md-5">
+            <div class="kotak p-4 p-lg-5">
+              <h3 class="akad">Wedding Ceremony</h3>
+              <p class="tanggal">Friday, 18 December 2026</p>
+              <p class="waktu">08.00 - 10.00 WIB</p>
+              <hr class="pembatas my-4">
+              <p class="lokasi">Grand Ballroom Hotel</p>
+              <p class="alamat">Jl. Tunjungan No. 123, Surabaya</p>
+              <a href="https://maps.google.com" target="_blank" class="btn-peta mt-4">
+                Get Direction
+              </a>
+            </div>
+          </div>
+
+          <div class="col-md-5">
+            <div class="kotak p-4 p-lg-5">
+              <h3 class="resepsi">Wedding Reception</h3>
+              <p class="tanggal">Sunday, 20 December 2026</p>
+              <p class="waktu">09.00 - 23.00 WIB</p>
+              <hr class="pembatas my-4">
+              <p class="lokasi">Grand Ballroom Hotel</p>
+              <p class="alamat">Jl. Tunjungan No. 123, Surabaya</p>
+              <a href="https://maps.google.com" target="_blank" class="btn-peta mt-4">
+                Get Direction
+              </a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Countdown -->
+    <section class="countdown container-fluid">
+      <div class="container text-center">
+        <p class="counttext">COUNTING DOWN TO</p>
+        <h2 class="capt">Our Day</h2>
+        <div class="garis mx-auto mb-5"></div>
+
+        <div class="countdown-wrap d-flex justify-content-center align-items-center gap-3 gap-md-5" id="kotak-hitung-mundur">
+          <div class="item-hitung-mundur">
+            <span id="days" class="time">00</span>
+            <span class="count">Days</span>
+          </div>
+          <span class="pemisah-waktu">:</span>
+          <div class="item-hitung-mundur">
+            <span id="hours" class="time">00</span>
+            <span class="count">Hours</span>
+          </div>
+          <span class="pemisah-waktu">:</span>
+          <div class="item-hitung-mundur">
+            <span id="minutes" class="time">00</span>
+            <span class="count">Minutes</span>
+          </div>
+          <span class="pemisah-waktu">:</span>
+          <div class="item-hitung-mundur">
+            <span id="seconds" class="time">00</span>
+            <span class="count">Seconds</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- RSVP -->
+    <section class="konfirmasi container-fluid">
+      <div class="container text-center">
+        
+        <div class="header mb-5">
+          <p class="sub-judul">The Honor of Your Presence</p>
+          <h2 class="judul">Your presence is the greatest gift</h2>
+          <div class="garis mx-auto"></div>
+        </div>
+
+        <div class="row justify-content-center">
+          <div class="col-lg-7">
+            <div class="card-wrap p-4 p-md-5">
+              <form id="konfir">
+                <div class="mb-4 text-start">
+                  <label class="label-formulir">Name</label>
+                  <input type="text" class="input-formulir form-control" placeholder="Write your name" required>
+                </div>
+                
+                <div class="mb-4 text-start">
+                  <label class="label-formulir">Attendance</label>
+                  <select class="input-formulir form-select" required>
+                    <option value="Hadir">Attending</option>
+                    <option value="Tidak Hadir">Unable to Attend</option>
+                  </select>
+                </div>
+
+                <div class="mb-4 text-start">
+                  <label class="label-formulir">Number of Guest</label>
+                  <input type="number" class="input-formulir form-control" min="1" max="4" value="1">
+                </div>
+
+                <div class="mb-5 text-start">
+                  <label class="label-formulir">Wishes & Prayers</label>
+                  <textarea class="input-formulir form-control" rows="3" placeholder="Leave your wishes and prayers"></textarea>
+                </div>
+
+                <button type="submit" class="button w-100">Submit</button>
+              </form>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+  </div>
+
+  <script src="wedpage.js"></script>
+</body>
+</html>
