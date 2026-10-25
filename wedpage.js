@@ -1,5 +1,13 @@
 function openEnvelope() {
-  document.getElementById("amplop-cover").classList.add("fade-out");
+  const cover = document.getElementById("amplop-cover");
+  const music = document.getElementById("backsound");
+
+  cover.classList.add("fade-out");
+
+  music.volume = 0.9;
+  music.play().catch((error) => {
+    console.log("Musik belum bisa diputar:", error);
+  });
 }
 
 const Dday = new Date("2026-12-20T09:00:00+07:00").getTime();
